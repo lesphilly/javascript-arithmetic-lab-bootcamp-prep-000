@@ -20,10 +20,8 @@ function makeInt(n) {
   return parseInt(n, 10);
 }
 
-  return parseFloat('2.222, shshshsh' );
 function preserveDecimal(n) {
   
-
 console.log(parseFloat(2.222));
 // expected output: 2.222
 
