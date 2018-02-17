@@ -26,6 +26,6 @@ function preserveDecimal(n) {
 console.log(preserveDecimal(2.222));
 // expected output: 2.222
 
-console.log(preserveDecimal(shshshsh));
+console.log(preserveDecimal('shshshsh'));
 // expected output: nan
 }
