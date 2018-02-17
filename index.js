@@ -28,4 +28,3 @@ console.log(preserveDecimal(2.222));
 
 console.log(preserveDecimal('sldkjflksjf'));
 // expected output: nan
-}
