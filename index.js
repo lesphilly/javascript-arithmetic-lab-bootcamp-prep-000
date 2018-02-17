@@ -21,10 +21,11 @@ function makeInt(n) {
 }
 
 function preserveDecimal(n) {
+  return parseFloat(n);
   
-console.log(parseFloat(2.222));
+console.log(preserveDecimal(2.222));
 // expected output: 2.222
 
-console.log(parseFloat('shshshsh'));
+console.log(preserveDecimal('shshshsh'));
 // expected output: nan
 }
